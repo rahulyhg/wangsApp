@@ -36,14 +36,14 @@ Vue.use(Buefy);
 //     data:{}
 // });
 
-var app = new Vue({
-    el: '#app',
-    data: {
-      auto_password: true,
-      password_options:'manual'
-      // rolesSelected: [{!! old('roles') ? old('roles') : '' !!}]
-    }
-  });
+// var app = new Vue({
+//     el: '#app',
+//     data: {
+//       auto_password: true,
+//       password_options:'manual'
+//       // rolesSelected: [{!! old('roles') ? old('roles') : '' !!}]
+//     }
+//   });
 
 $(document).ready(function(){
   $('button.dropdown').hover(function(e){
